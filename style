@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tahoma',sans-serif ; }
+
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(eng.jpg);
+    background-size:unset;
+    background-position: center center ; 
+}
+
+.login-form{
+    background: rgba(177, 155, 155, 0.15);
+    border: 3px solid rgba(118, 71, 133, 0.3);
+    border-radius: 16px;
+    padding: 30px;
+    backdrop-filter: blur(25px);
+    text-align: center;
+    color: rgba(120, 69, 150, 0.699);
+    width: 450px;
+    box-shadow: 0px 0px 20px 10px rgba(124, 95, 167, 0.15);} 
+
+.login-title{
+    font-size: 50px;
+    margin-bottom: 40px;}
+
+.input-box{
+    margin: 30px 0;
+    position: relative;}
+
+.input-box input{
+    width: 100%;
+    background: rgba(255,255,255,0.1);
+    border: none;
+    padding: 12px 12px 12px 45px;
+    border-radius: 99px;
+    outline: 3px solid transparent;
+    transition: 0.3s;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;}
